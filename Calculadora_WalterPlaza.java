@@ -4,9 +4,10 @@ public class Calculadora_WalterPlaza {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double f_number, s_number;
+        System.out.println("Calculadora");
 
         while (true) {
-            System.out.print("Calculadora \n¿Que operación desea realizar?: 1. Suma," +
+            System.out.print("¿Que operación desea realizar?: 1. Suma," +
                     " 2. Resta, 3. Multiplicación, 4.Division, 0. Salir \nIngrese su opcion: ");
             int opcion = input.nextInt();
 
