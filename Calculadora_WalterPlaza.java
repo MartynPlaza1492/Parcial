@@ -15,6 +15,7 @@ public class Calculadora_WalterPlaza {
                 System.out.print("Que tenga un buen dia");
                 break;
             }
+            else if(opcion >= 5 || opcion <= 0) System.out.println("Opcion Invalida");
             else {
                 System.out.print("Ingrese un número");
                 f_number = input.nextDouble();
@@ -27,7 +28,7 @@ public class Calculadora_WalterPlaza {
                 else if (opcion == 4) {
                     if (s_number == 0) System.out.println("Error: No se puede dividir por cero");
                     else System.out.println("Resultado de Division: " + (f_number / s_number));
-                } else System.out.println("Opcion Invalida");
+                }
             }
         }
     }
